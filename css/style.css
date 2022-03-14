@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#All{
+    padding: 30px 60px;
+    position: fixed;
+    width: 100%;
+    /* background-color: #212529; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Right .list{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95rem;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    padding: 0 8px;
+}
+#Right .list:hover{
+    color: #ffc800;
+}
+#All #Left img{
+    height: 2rem;
+}
+#First a{
+    padding:20px 40px;
+    border-radius: 5px;
+    background-color: #ffc800;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+#First a:hover{
+    background-color: #b6910a;
+}
+#First h3{
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+#First{
+    text-align: center;
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:15rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+#First h1{
+    margin-bottom: 64px;
+    font-size: 4.5rem;
+}
+#Second{
+    padding: 6rem 0;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+}
+#Text h2{
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.text-p{
+    margin-bottom: 4rem;
+    font-style:italic;
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: 400;
+}
+#Box-all{
+    width: 90%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+.box{
+    text-align: center;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.box img{
+    width: 150px;
+    height:120px;
+}
+.box h4{
+    font-size: calc(1.275rem + 0.3vw);
+    font-weight: 700;
+    margin:1rem 0;
+}
+.box p{
+    color: #6c757d;
+    line-height: 1.75;
+    margin-bottom: 12rem;
+}
+#Third{
+    padding: 6rem 0;
+    width: 100%;
+    height: 1100px;
+    margin: auto;
+    background-color:#f8f9fa;
+    text-align: center;  
+}
+.text-h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#Third span{
+    font-size: 1rem;
+    line-height: 1.75;;
+}
+#P-all{
+    width: 90%;
+    margin:0px auto;
+}
+.p-box{
+    float: left;
+    width:30%;
+    margin:10px 1rem;
+    background-color: #fff; 
+    font-size: 1.5rem;
+    font-weight: 700;  
+    transition: 1s;
+}
+.p-box span{
+    font-style: italic;
+    color: #6c757d;
+}
+.p-box p,span{
+    margin-top: 10px;
+}
+.p-box img{
+    width: 100%;  
+}
+#About{
+    padding: 6rem 0;
+    text-align: center;
+}
+#Team{
+    text-align: center;
+    padding: 6rem 0;
+    height: 800px;
+    background-color: #f8f9fa;
+}
+#Team-list{
+    width: 90%;
+    margin: 0 auto;
+}
+.member img{
+   width: 14rem;
+   border: 8px solid rgba(0, 0, 0, 0.1);
+   border-radius: 50%;
+}
+.member{
+    float: left;
+    margin:30px 85px 0 85px;
+}
+.member p{
+    color:#6c757d;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+#Icon button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #212529;
+    border: 1px solid #212529;
+    color: #fff;
+}
+#Last{
+    float:left;
+    padding-top: 30px;
+    width: 95%;
+    margin: 0 auto;
+    color: #6c757d;
+    line-height: 1.75;
+}
+#Sponsor{
+    width: 90%;
+    padding:3rem 0;
+    align-items: center;
+    height: 150px;
+    margin:0 auto;
+}
+.marka{
+    float: left;
+    width: 22.5%;
+    margin-left:30px;   
+}
+.marka img{
+    height: 50px;
+}
+#Contact{
+    text-align: center;
+    background-color: #212529;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+#Contact h1{
+    color:#fff 
+}
+#Contact button{
+    padding:20px 40px;
+    border-radius: 5px;
+    background-color: #ffc800;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.95rem; 
+    border: 1px solid #ffc800;
+    margin-top: 30px;
+}
+#Left input{
+    padding:20px 18rem 20px 10px;
+    width: 40%;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border:1px solid #ced4ca;
+}
+#Left input:focus{
+    outline-color: #ffc800;
+}
+#Right textarea{
+    padding: 10px;
+    width: 300px;
+    height: 230px;
+    resize: none;
+    border-radius: 4px;
+    border:1px solid #ced4ca;
+}
+#Right textarea:focus{
+    outline-color: #ffc800;
+}
+#Copyright{
+    padding: 40px 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#Copyright-l{
+    margin-left: 40px;
+}
+#List{
+    list-style: none;
+    display: flex;
+}
+#List a{
+    margin-left: 20px;
+    padding-right: 20px;
+    color: #000;
+}
